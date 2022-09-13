@@ -108,6 +108,13 @@ footer{
 
 }
 
+.card {
+    display: flex;
+    
+
+}
+
+
 #camisetasnac{
     width: auto;
     height: auto;
