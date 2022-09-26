@@ -1,5 +1,5 @@
 nav{
-    background-color: rgba(255, 234, 1, 0.896);
+    background-color: map-get($map: $paleta, $key: colorPrimario );
     position: sticky;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@ nav{
             margin-right: 10px;
         }
             nav ul li a{
-                color: #1215e6;
+                color: map-get($map: $paleta, $key: colorTerciario);
                 text-decoration: none;
                 font-family: 'Figtree', sans-serif;
                 font-size: 1.2rem;
